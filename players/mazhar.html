@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Critical X - Player Profile</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0a0f1c;
+            color: #e8ecf3;
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+        }
+        
+        .profile-container {
+            max-width: 900px;
+            background: #111a33;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(0, 180, 255, 0.2);
+        }
+        
+        .top-section {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .player-img {
+            width: 300px;
+            height: 350px;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #000;
+        }
+        
+        .player-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .info h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+            color: #4cb3ff;
+        }
+        
+        .info h3 {
+            margin: 5px 0;
+            color: #cfd7e5;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .stat-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 120px;
+        }
+        
+        .stat-box strong {
+            display: block;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        
+        .bio {
+            margin-top: 25px;
+            line-height: 1.5;
+            color: #c9d5e5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-container">
+        <div class="top-section">
+            <div class="player-img">
+                <img src="../images/mazhar2.jpg" alt="Player 1" />
+            </div>
+
+            <div class="info">
+                <h1>CRX Smile</h1>
+                <h3>Critical X — IGL</h3>
+
+
+                <div class="stats">
+                    <div class="stat-box">
+                        GAMES
+                        <strong>0</strong>
+                    </div>
+                    <div class="stat-box">
+                        KILLS
+                        <strong>0</strong>
+                    </div>
+                    <div class="stat-box">
+                        DEATH
+                        <strong>0</strong>
+                    </div>
+
+                </div>
+                <div class="stats">
+                    <div class="stat-box">
+                        RESCUE
+                        <strong>0</strong>
+                    </div>
+                    <div class="stat-box">
+                        ASSISTS
+                        <strong>0</strong>
+                    </div>
+                    <div class="stat-box">
+                        RESPONSE
+                        <strong>0%</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bio">
+            <h2>About Player</h2>
+            <h5>AGE = <b>21</b> YEARS</h5>
+            <h5>EXPERIENCE = <b>4</b> YEARS</h5>
+            <p>
+                Mazhar “CRX Mazhar” is the backbone of Critical X tactical gameplay. As the team primary support, he specializes in providing utility, covering teammates, and making critical map calls. smile is known for his calm and composed approach under pressure,
+                ensuring his team executes strategies flawlessly. While not the star fragger, his consistency and smart plays often turn the tide of matches.
+            </p>
+            <h2>Playstyle</h2>
+            <ul>
+                <li>Prioritizes team safety over kills</li>
+                <li>Reliable in clutch situations to assist teammates</li>
+                <li>Expert in One Tap, first kncok, and utility usage</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
